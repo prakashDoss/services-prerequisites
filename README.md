@@ -3,26 +3,34 @@
 The application is to create a Microservices backend to securely store data in a file format and allow the user to read and update when required.
 This Assignment has Microservices to securely store data in a file format and allow the user to read and update when required.  Fiel format can be both CSV and XML file format. Each is independently built & deployable.
 
+## Implementaion of services [Microservices]
+ We have developed 2 micro services , services name called as service-one and service-two, functionality and implementaions explained as below,
+ Service One :
+ Its an independant deployable sercvice and follwed by clean code Architecuture pattern with TDD and DDD, it has an user CRUD with File operations and the below technologies we have used
 
-# Index
-* Overview
-* Requirements
-* Services
-* Installation & Setup
-* Test & Execute Application
+ -Nodejs Version 14.X
+ -Docker
+ -NoSQL -ODM MongoDB -v4.0.27
+ -Queue -RabbitMq - meesage broker
 
-## Overview
+Packages and Frameworks with versions:
+    amqplib- ^0.8.0,
+    axios- ^0.21.4,
+    chai- ^4.3.4,
+    chai-http- ^4.3.0,
+    dotenv- ^10.0.0,
+    fastify- ^3.21.1,
+    fastify-serve-swagger-ui- ^1.0.0,    
+    fastify-swagger- ^4.12.0,    
+    mocha- ^9.1.1,
+    mongoose- ^6.0.6,
+    protobufjs- ^6.11.2
 
- The assignment has 2 microservices and it uses a message broker and REST APIs for communication. All data transfer happens in a secure way using encryption and protocol buffer format. Also, the application provides secure storage containers to store files. Below is our application architecture.  
-
-**ARCHTECUTURE PATTERN**
+###**ARCHTECUTURE PATTERN**
 ![image](https://user-images.githubusercontent.com/78136945/133961010-a1faa2d9-9ebe-4ed6-ba43-628b4f85ba27.png)
 
-**EXECUTION LIFE CYCLE:**
+###**EXECUTION LIFE CYCLE:**
 ![image](https://user-images.githubusercontent.com/78136945/133961043-deeb3a5b-b8ff-4971-b434-3bad10ad4edb.png)
-
-**TOP LEVEL ARCHITECHTURE**
-![image](https://user-images.githubusercontent.com/78136945/133961098-6596af6f-a927-4863-9967-6d7a3a577fd7.png)
 
 ### Services
 
