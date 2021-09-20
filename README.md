@@ -1,16 +1,15 @@
 # Introduction - Online Assignment
 
-The application is to create a Microservices backend to securely store data in a file format and allow the user to read and update when required.
-This Assignment has Microservices to securely store data in a file format and allow the user to read and update when required.  Fiel format can be both CSV and XML file format. Each is independently built & deployable.
+The application is to create a Microservices backend to securely store data in a file format and allow the user to read and update when required. This Assignment has Microservices to securely store data in a file format and allow the user to read and update when required.  Fiel format can be both CSV and XML file format. Each is independently built & deployable.
 
 ## Implementaion of services [Microservices]
- We have developed 2 micro services Implement the RESET API Services, services name called as service-one and service-two, functionality and implementaions explained as below,
+ We have developed 2 micro services Implement the RESET API Services, services name called as service-one and service-two, functionality and implementaions explained as below, we have used for AES-256 Alogorith while encrypt and decrypt the data's across the services
 
  ##Service One
- Its an independant deployable sercvice and follwed by clean code Architecuture pattern with TDD and DDD, it has an user CRUD with File operations and the below technologies we have used
+ Its an independant deployable sercvice and follwed by clean code Architecuture pattern with TDD and DDD, it has an user CRUD with File operations and the below technologies we have used will list it out.
 
 ##Service Two
-Its an independant deployable sercvice and follwed by clean code Architecuture pattern with TDD and DDD , it will encryptd the user data and store the details in requested the file formats such as CSV or XML
+Its an independant deployable sercvice and follwed by clean code Architecuture pattern with TDD and DDD , it will encryptd the user data and store the details in requested the file formats such as CSV or XML,
 
 ##Technologies used for both Services:
 
@@ -58,42 +57,42 @@ Rest API is used for only reading data from service two. That API call is also e
 
 3. Downlod the RabbitMQ from the offficial site  download here (https://www.rabbitmq.com/download.html) - its an optinal we can use Docker composer from the services-prerequisites repo
 
-##Setup and  Execution - services-prerequisites Repo
+# Setup and  Execution - services-prerequisites Repo
 
 1. clone the services-prerequisites Repo and Run Rabbit Mq and MongoDB docker composer. Please make sure your machine docker is up and running.
 
-##Command
+# Command
 1. cd services-prerequisites
 2. docker compose -f docker-compose.yml up
 
-##Setup and  Execution - service-one Repo
+# Setup and  Execution - service-one Repo
 
 1. clone the service-one Repo , we can use 2 ways to run the Application via docker or Noraml node application command
 
-##Command - Run through Docker
+# Command - Run through Docker
 1. cd service-one
 2. sudo docker build -t service-one .
 3. sudo docker images
 4. sudo docker run --name service-one -p 2082 -d service-one
 
-##Command - Run throgh Node App Commands
+# Command - Run throgh Node App Commands
 
 1. cd service-one
 2. npm i --save
 3. npm run start
 4. npm run test  - Test the Applications
 
-##Setup and  Execution - service-two Repo
+# Setup and  Execution - service-two Repo
 
 1. clone the service-two Repo , we can use 2 ways to run the Application via docker or Noraml node application command
 
-##Command - Run through Docker
+# Command - Run through Docker
 1. cd service-two
 2. sudo docker build -t service-two .
 3. sudo docker images
 4. sudo docker run --name service-two -p 2082 -d service-two
 
-##Command - Run throgh Node App Commands
+# Command - Run throgh Node App Commands
 
 1. cd service-two
 2. npm i --save
@@ -103,9 +102,9 @@ Rest API is used for only reading data from service two. That API call is also e
 
 Once Everything has set it up , we will Play with our Microservices applications, :)
 
-##API DOCS
-Play our App using Swagger - http://0.0.0.0:2082/api-docs
-Play our App using postman -  https://www.getpostman.com/collections/d30ee7be05c40a3ef197
+# API DOCS
+1. Play our App using Swagger - http://0.0.0.0:2082/api-docs
+2. Play our App using postman -  https://www.getpostman.com/collections/d30ee7be05c40a3ef197
 
 Thanks & Regards :)
 Prakash.k
