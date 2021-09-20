@@ -2,16 +2,16 @@
 
 The application is to create a Microservices backend to securely store data in a file format and allow the user to read and update when required. This Assignment has Microservices to securely store data in a file format and allow the user to read and update when required.  Fiel format can be both CSV and XML file format. Each is independently built & deployable.
 
-## Implementaion of services [Microservices]
+# Implementaion of services [Microservices]
  We have developed 2 micro services Implement the RESET API Services, services name called as service-one and service-two, functionality and implementaions explained as below, we have used for AES-256 Alogorith while encrypt and decrypt the data's across the services
 
- ##Service One
+ # Service One
  Its an independant deployable sercvice and follwed by clean code Architecuture pattern with TDD and DDD, it has an user CRUD with File operations and the below technologies we have used will list it out.
 
-##Service Two
+# Service Two
 Its an independant deployable sercvice and follwed by clean code Architecuture pattern with TDD and DDD , it will encryptd the user data and store the details in requested the file formats such as CSV or XML,
 
-##Technologies used for both Services:
+# Technologies used for both Services:
 
 - [Nodejs Version 14.X]()
 - [Docker]()
@@ -19,7 +19,7 @@ Its an independant deployable sercvice and follwed by clean code Architecuture p
 - [Queue -RabbitMq - meesage broker]()
 
 
-##Packages and Frameworks with versions
+# Packages and Frameworks with versions
 1. amqplib- ^0.8.0,
 2. axios- ^0.21.4,
 3. chai- ^4.3.4,
