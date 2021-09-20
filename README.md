@@ -33,15 +33,11 @@ Its an independant deployable sercvice and follwed by clean code Architecuture p
 11. protobufjs- ^6.11.2
 
 
-###**ARCHTECUTURE PATTERN**
+# **ARCHTECUTURE PATTERN**
 ![image](https://user-images.githubusercontent.com/78136945/133961010-a1faa2d9-9ebe-4ed6-ba43-628b4f85ba27.png)
 
-###**EXECUTION LIFE CYCLE:**
+# **EXECUTION LIFE CYCLE:**
 ![image](https://user-images.githubusercontent.com/78136945/133961043-deeb3a5b-b8ff-4971-b434-3bad10ad4edb.png)
-
-
-### REST API SERVICES
-Rest API is used for only reading data from service two. That API call is also encrypted using aes-256-cbc Algorithm. Secret keys are stored in Env for decryption.
 
 ## Repositories
 
