@@ -62,8 +62,8 @@ Rest API is used for only reading data from service two. That API call is also e
 4. Below Repositories 
 
 -https://github.com/prakashDoss/services-prerequisites.git
-- https://github.com/srobertfdo/assignment_service_one
-- https://github.com/srobertfdo/assignment_service_two
+- https://github.com/prakashDoss/service-one
+- https://github.com/prakashDoss/service-two.git
 
 # Installation & Setup
 
@@ -87,7 +87,7 @@ docker compose -f docker-compose.yml up
 
 ```bash
 
-git clone https://github.com/srobertfdo/assignment_service_one
+git clone https://github.com/prakashDoss/service-one
 
 cd service-one
 
@@ -112,7 +112,7 @@ App listening on port is : 2082!
 
 ```bash
 
-git clone https://github.com/srobertfdo/assignment_service_two
+git clone https://github.com/prakashDoss/service-two.git
 
 cd service-two
 
