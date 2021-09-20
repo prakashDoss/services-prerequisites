@@ -9,7 +9,7 @@ The application is to create a Microservices backend to securely store data in a
  Its an independant deployable sercvice and follwed by clean code Architecuture pattern with TDD and DDD, it has an user CRUD with File operations and the below technologies we have used will list it out.
 
 # Service Two
-Its an independant deployable sercvice and follwed by clean code Architecuture pattern with TDD and DDD , it will encryptd the user data and store the details in requested the file formats such as CSV or XML,
+Its an independant deployable sercvice and follwed by clean code Architecuture pattern with TDD and DDD , it will store the users details in requested the file formats such as CSV or XML, and while read the data from the sources and send it to encrypted foramt.
 
 # Technologies used for both Services:
 
@@ -45,15 +45,15 @@ Its an independant deployable sercvice and follwed by clean code Architecuture p
 - https://github.com/prakashDoss/service-one
 - https://github.com/prakashDoss/service-two.git
 
-# How to run ?
+# How To Run ?
 
 1. Download the Nodejs from the official site - downlaod here (https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 
 2. Downlaod the MongoDB from the official site download here (https://docs.mongodb.com/manual/administration/install-enterprise/)
 
-3. Downlod the RabbitMQ from the offficial site  download here (https://www.rabbitmq.com/download.html) - its an optinal we can use Docker composer from the services-prerequisites repo
+3. Downlod the RabbitMQ from the offficial site  download here (https://www.rabbitmq.com/download.html) - its an optional we can use Docker composer from the services-prerequisites repo
 
-# Setup and  Execution - services-prerequisites Repo
+# Setup And  Execution - services-prerequisites Repo
 
 1. clone the services-prerequisites Repo and Run Rabbit Mq and MongoDB docker composer. Please make sure your machine docker is up and running.
 
@@ -61,17 +61,17 @@ Its an independant deployable sercvice and follwed by clean code Architecuture p
 1. cd services-prerequisites
 2. docker compose -f docker-compose.yml up
 
-# Setup and  Execution - service-one Repo
+# Setup And  Execution - service-one Repo
 
 1. clone the service-one Repo , we can use 2 ways to run the Application via docker or Noraml node application command
 
-# Command - Run through Docker
+# Command - Run Through Docker
 1. cd service-one
 2. sudo docker build -t service-one .
 3. sudo docker images
 4. sudo docker run --name service-one -p 2082 -d service-one
 
-# Command - Run throgh Node App Commands
+# Command - Run Through Node App Commands
 
 1. cd service-one
 2. npm i --save
@@ -82,13 +82,13 @@ Its an independant deployable sercvice and follwed by clean code Architecuture p
 
 1. clone the service-two Repo , we can use 2 ways to run the Application via docker or Noraml node application command
 
-# Command - Run through Docker
+# Command - Run Through Docker
 1. cd service-two
 2. sudo docker build -t service-two .
 3. sudo docker images
 4. sudo docker run --name service-two -p 2082 -d service-two
 
-# Command - Run throgh Node App Commands
+# Command - Run Through Node App Commands
 
 1. cd service-two
 2. npm i --save
