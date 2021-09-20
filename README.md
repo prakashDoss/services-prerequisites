@@ -1,25 +1,28 @@
-# Online Assignment
+# Introduction - Online Assignment
 
-The Assignment of our application is to create a Microservices backend to securely store data in a file format and allow the user to read and update when required.
+The application is to create a Microservices backend to securely store data in a file format and allow the user to read and update when required.
+This Assignment has Microservices to securely store data in a file format and allow the user to read and update when required.  Fiel format can be both CSV and XML file format. Each is independently built & deployable.
 
 
-# Table of contents
-* Introduction
+# Index
 * Overview
 * Requirements
+* Services
 * Installation & Setup
 * Test & Execute Application
-
-
-## Introduction
-
-This Assignment has Microservices to securely store data in a file format and allow the user to read and update when required.  Fiel format can be both CSV and XML file format. Each is independently built & deployable.
 
 ## Overview
 
  The assignment has 2 microservices and it uses a message broker and REST APIs for communication. All data transfer happens in a secure way using encryption and protocol buffer format. Also, the application provides secure storage containers to store files. Below is our application architecture.  
 
-![image](https://user-images.githubusercontent.com/78136945/133959961-e5eda025-442f-4d57-b9a8-9d0f62656e23.png)
+**ARCHTECUTURE PATTERN**
+![image](https://user-images.githubusercontent.com/78136945/133961010-a1faa2d9-9ebe-4ed6-ba43-628b4f85ba27.png)
+
+**EXECUTION LIFE CYCLE:**
+![image](https://user-images.githubusercontent.com/78136945/133961043-deeb3a5b-b8ff-4971-b434-3bad10ad4edb.png)
+
+**TOP LEVEL ARCHITECHTURE**
+![image](https://user-images.githubusercontent.com/78136945/133961098-6596af6f-a927-4863-9967-6d7a3a577fd7.png)
 
 ### Services
 
