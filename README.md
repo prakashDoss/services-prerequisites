@@ -62,7 +62,7 @@ Rest API is used for only reading data from service two. That API call is also e
 3. Docker
 4. Below Repositories 
 
--https://github.com/prakashDoss/services-prerequisites.git
+- https://github.com/prakashDoss/services-prerequisites.git
 - https://github.com/prakashDoss/service-one
 - https://github.com/prakashDoss/service-two.git
 
