@@ -45,8 +45,6 @@ Following packages from AdonisJs are used to make service more effective.
 
 Our application uses the Exchange method Direct for communication. We can also configure it in our applications. I have used [amqplib]() npm package to implement Rabbit MQ. Here Service one will be Publisher and Service two will be a consumer. 
 
-![image](https://user-images.githubusercontent.com/78136945/133960121-2cf7425f-2a0e-4860-b56e-d08b2b951254.png)
-
 ### Protocol buffer
 
 Here I have used [Google protocol buffer](https://developers.google.com/protocol-buffers) to encode the messages between services. I have achieved this in Node Js using [protobufjs](https://www.npmjs.com/package/protobufjs)
