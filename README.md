@@ -19,6 +19,7 @@ This Assignment has Microservices to securely store data in a file format and al
 
  The assignment has 2 microservices and it uses a message broker and REST APIs for communication. All data transfer happens in a secure way using encryption and protocol buffer format. Also, the application provides secure storage containers to store files. Below is our application architecture.  
 
+![image](https://user-images.githubusercontent.com/78136945/133959961-e5eda025-442f-4d57-b9a8-9d0f62656e23.png)
 
 ### Services
 
